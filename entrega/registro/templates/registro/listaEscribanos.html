@@ -1,0 +1,16 @@
+{% extends "registro/base.html" %}
+{% load static %}
+
+{% block title %} Lista {% endblock title %}
+
+{% block main %}
+
+{% for escribano in escribanos %}
+
+<p>Nombre: {{ escribano.nombre }}</p>
+<p>Apellido: {{ escribano.apellido }}</p>
+<p>Email: {{ escribano.email }}</p>
+
+{% endfor %}
+
+{% endblock main %}

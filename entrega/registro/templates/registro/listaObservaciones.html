@@ -1,0 +1,16 @@
+{% extends "registro/base.html" %}
+{% load static %}
+
+{% block title %} Lista observaciones {% endblock title %}
+
+{% block main %}
+
+{% for observacion in observaciones %}
+
+<p>ID: {{ observacion.id }}</p>
+<p>Documento: {{ observacion.documento }}</p>
+<p>Tipo: {{ observacion.tipo }} </p>
+
+{% endfor %}
+
+{% endblock main %}

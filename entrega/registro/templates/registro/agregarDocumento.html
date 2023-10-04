@@ -1,0 +1,24 @@
+{% extends "registro/base.html" %}
+{% load static %}
+
+{% block title %} Agregar Documento {% endblock %}
+
+{% block main %}
+
+    {% if formulario.errors %}
+
+    <p style="color:red;"> Estan mal los datos, revisar </p>
+
+    {% endif %}
+
+
+    <form action="" method="POST">{% csrf_token %}
+
+        <table>
+            {{ formulario.as_table }}
+        </table>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    {% endblock main %}
