@@ -1,7 +1,33 @@
-navbar navbar-light bg-light static-top{
-  background-color: #000;
+.navbar{
+  display: flex;
+  align-items: center;
 }
 
-container{
-  background-color: aqua;
+.container{
+  background-color: rgb(245, 184, 92);
+}
+
+
+.main{
+  font-size: medium;
+}
+
+.navbar-brand{
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.navbar-brand:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar-brand:active{
+  background-color: #04AA6D;
+  color: white;
 }

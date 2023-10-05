@@ -16,3 +16,4 @@ class Escribano(models.Model):
 class Observacion(models.Model):
     documento = models.IntegerField()
     tipo = models.CharField(max_length=40)
+
