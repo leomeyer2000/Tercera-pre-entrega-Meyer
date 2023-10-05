@@ -1,15 +1,17 @@
 .navbar{
   display: flex;
-  align-items: center;
+  align-items: center;  
+  background-color: rgb(245, 184, 92);
 }
 
 .container{
-  background-color: rgb(245, 184, 92);
+  background-color: rgb(243, 192, 115);
 }
 
 
 .main{
   font-size: medium;
+  background-color: rgb(224, 159, 61);
 }
 
 .navbar-brand{
@@ -28,6 +30,14 @@
 }
 
 .navbar-brand:active{
-  background-color: #04AA6D;
+  background-color: rgb(255, 153, 0);
   color: white;
+}
+
+.bloque{
+  background-color: rgb(202, 138, 43);
+}
+
+body{
+  background-color: rgb(253, 206, 152);
 }

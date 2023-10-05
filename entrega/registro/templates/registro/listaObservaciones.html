@@ -6,11 +6,11 @@
 {% block main %}
 
 {% for observacion in observaciones %}
-
-<p>ID: {{ observacion.id }}</p>
-<p>Documento: {{ observacion.documento }}</p>
-<p>Tipo: {{ observacion.tipo }} </p>
-
+<div class="bloque">
+    <p>ID: {{ observacion.id }}</p>
+    <p>Documento: {{ observacion.documento }}</p>
+    <p>Tipo: {{ observacion.tipo }} </p>
+</div>
 {% endfor %}
 
 {% endblock main %}

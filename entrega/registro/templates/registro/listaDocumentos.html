@@ -6,13 +6,13 @@
 {% block main %}
 
 {% for documento in documentos %}
-
-<p>Registro: {{ documento.registro }}</p>
-<p>Codigo: {{ documento.codigo }}</p>
-<p>Pin: {{ documento.pin }}</p>
-<p>Fecha: {{ documento.fecha }}</p>
-<p>Tiene observaciones: {{ documento.observaciones }}</p>
-
+<div class="bloque">
+    <p>Registro: {{ documento.registro }}</p>
+    <p>Codigo: {{ documento.codigo }}</p>
+    <p>Pin: {{ documento.pin }}</p>
+    <p>Fecha: {{ documento.fecha }}</p>
+    <p>Tiene observaciones: {{ documento.observaciones }}</p>
+</div>
 {% endfor %}
 
 {% endblock main %}

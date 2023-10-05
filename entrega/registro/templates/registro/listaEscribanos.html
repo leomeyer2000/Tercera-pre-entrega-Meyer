@@ -6,11 +6,11 @@
 {% block main %}
 
 {% for escribano in escribanos %}
-
-<p>Nombre: {{ escribano.nombre }}</p>
-<p>Apellido: {{ escribano.apellido }}</p>
-<p>Email: {{ escribano.email }}</p>
-
+<div class="bloque">
+    <p>Nombre: {{ escribano.nombre }}</p>
+    <p>Apellido: {{ escribano.apellido }}</p>
+    <p>Email: {{ escribano.email }}</p>
+</div>
 {% endfor %}
 
 {% endblock main %}
