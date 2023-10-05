@@ -10,12 +10,11 @@ class DocumentoFormulario(forms.Form):
     codigo = forms.IntegerField()
     pin = forms.IntegerField()
     fecha = forms.DateField()
-    observaciones = forms.BooleanField()
     
 class ObservacionFormulario(forms.Form):
     documento = forms.IntegerField()
     tipo = forms.CharField(max_length=40)
-    
+
 class buscarEscribanoForm(forms.Form):
     nombre = forms.CharField(max_length=30)
     
