@@ -42,7 +42,7 @@ def agregarDocumento(request):
             
             info = formulario.cleaned_data
             
-            documento = Documento(registro=info["registro"], codigo=info["codigo"], pin=info["pin"], fecha = info["fecha"], observaciones=info["observaciones"])
+            documento = Documento(registro=info["registro"], codigo=info["codigo"], pin=info["pin"], fecha = info["fecha"], observaciones=False)
             
             documento.save()
             

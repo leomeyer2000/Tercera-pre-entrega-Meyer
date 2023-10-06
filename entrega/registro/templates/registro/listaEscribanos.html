@@ -7,9 +7,11 @@
 
 {% for escribano in escribanos %}
 <div class="bloque">
-    <p>Nombre: {{ escribano.nombre }}</p>
-    <p>Apellido: {{ escribano.apellido }}</p>
-    <p>Email: {{ escribano.email }}</p>
+    <ul>
+        <li>Nombre: {{ escribano.nombre }}</li>
+        <li>Apellido: {{ escribano.apellido }}</li>
+        <li>Email: {{ escribano.email }}</li>
+    </ul>
 </div>
 {% endfor %}
 
