@@ -31,7 +31,7 @@
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==4.2.15"
+            "version": "==4.2.17"
         },
         "sqlparse": {
             "hashes": [
