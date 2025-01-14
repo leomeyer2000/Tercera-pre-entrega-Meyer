@@ -1,2 +1,2 @@
 # Python 3.11.5
-django == 5.0.8
+django == 5.0.10
